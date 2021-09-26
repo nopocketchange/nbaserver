@@ -1,1 +1,1 @@
-web: gunicorn nba_server:app
+web: gunicorn nba_server:app --timeout 10
